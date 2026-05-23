@@ -1,0 +1,66 @@
+{
+  "collectionGroup": "playlists",
+  "queryScope": "Collection",
+  "fields": [
+    {
+      "fieldPath": "userId",
+      "order": "ASCENDING"
+    },
+    {
+      "fieldPath": "createdAt",
+      "order": "DESCENDING"
+    }
+  ]
+}
+
+{
+  "collectionGroup": "songs",
+  "queryScope": "Collection",
+  "fields": [
+    {
+      "fieldPath": "userId",
+      "order": "ASCENDING"
+    },
+    {
+      "fieldPath": "uploadedAt",
+      "order": "DESCENDING"
+    }
+  ]
+}
+
+{
+  "collectionGroup": "songs",
+  "queryScope": "Collection",
+  "fields": [
+    {
+      "fieldPath": "plays",
+      "order": "DESCENDING"
+    }
+  ]
+}
+
+{
+  "collectionGroup": "songs",
+  "queryScope": "Collection",
+  "fields": [
+    {
+      "fieldPath": "title",
+      "order": "ASCENDING"
+    }
+  ]
+}
+
+{
+  "collectionGroup": "songs",
+  "queryScope": "Collection",
+  "fields": [
+    {
+      "fieldPath": "likedByUsers",
+      "arrayConfig": "CONTAINS"
+    },
+    {
+      "fieldPath": "uploadedAt",
+      "order": "DESCENDING"
+    }
+  ]
+}
